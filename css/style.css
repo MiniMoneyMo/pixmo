@@ -1,0 +1,121 @@
+/* -------------------------- FONTS -------------------------------- */
+@font-face {
+    font-family: 'Rubik'; /* Придумайте любое имя */
+    src: url('/fonts/Rubik/Rubik.ttf') format('truetype'); /* Самый современный формат */
+    font-weight: 400; /* Указываем насыщенность (normal) */
+    font-style: normal; /* Указываем стиль (обычный) */
+}
+
+@font-face {
+    font-family: 'Dela'; /* Придумайте любое имя */
+    src: url('/fonts/Dela/Dela.ttf') format('truetype'); /* Самый современный формат */
+    font-weight: 600; /* Указываем насыщенность (normal) */
+    font-style: normal; /* Указываем стиль (обычный) */
+}
+/* -------------------------- FONTS END ---------------------------- */
+*, html{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: rgba(147,162,229, 1);
+    font-family: Rubik, sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width:100%;
+    max-width:1500px;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+}
+
+header .logo a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2rem;
+    display: flex;
+    font-family: "Dela", sans-serif;
+}
+
+header .logo .logo-descr{
+    padding:0 0 0 10px;
+}
+
+header .logo p{
+    color:#fff;
+    font-size: 1rem;
+}
+
+header .info-header{
+    display: flex;
+    align-items: center;
+}
+
+.info-header--information{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.info-header--information .local{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 10px;
+    width: 100%;
+}
+
+.info-header--information .local span{
+    font-size: .8rem;
+    color:
+}
+
+.info-header--information .local p{
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color:#fff;
+}
+
+.info-header--information .local a{
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: "Dela", sans-serif;
+}
+
+.info-header--information svg{
+    width: 25px;
+    height: 25px;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+}
+
